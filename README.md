@@ -13,7 +13,7 @@ A Simple PHP Class that can easily be dropped into a larger set of tools.  Easy 
     $gravatar->setEmail('jon@taylor-made.agency')
         ->setDefault('mp');
     ?>
-    <img src="<?php echo $gravatar; ?>"/>
+    <img src="<?php echo $gravatar; ?>"/><?php
     // <img src="https://www.gravatar.com/avatar/5d7f9d2d812c493b603adf629c1bb0c6?d=mp"/>
 ```
 
